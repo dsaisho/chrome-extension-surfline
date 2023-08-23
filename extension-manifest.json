@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "TKS Fullscreen",
+    "description": "A Chrome extension to watch your paid for surfline streams without interuption on full screen.",
+    "version": "2.0",
+    "host_permissions": ["https://www.surfline.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.surfline.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["inject.js"],
+        "matches": ["https://www.surfline.com/*"]
+      }
+    ]
+  }
