@@ -2,3 +2,4 @@ node_modules/*
 chrome-extenstion/*
 surfline-extension/*
 package-lock.json
+*.zip
