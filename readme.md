@@ -1,7 +1,7 @@
 # Chrome Extension for Surfline.com
-
+- because they think its cool to limit your content even when your a paying premium member...
 ## Purpose
-The primary goal of this extension is to enable users to watch videos in fullscreen continuously on Surfline.com without the interruption of the 'are you watching' popup every ~15 minutes.
+The primary goal of this extension is to enable premium surfline users to watch videos in fullscreen continuously on Surfline.com without the interruption of the 'are you watching' popup every ~15 minutes.
 
 ## Features
 - Introduces a 'fullscreen' button on Surfline.com web pages.
@@ -13,12 +13,12 @@ The primary goal of this extension is to enable users to watch videos in fullscr
 2. Click on the 'fullscreen' button located at the bottom right of the web page.
 
 ## Development
-1. npm run dev to develop with watch mode
-2. npm run build will build the chrome-extension package and then zip it up
-3. src/content runs on the extension side
-4. src/inject gets injected on the web page and allows communication with the websites window object
+- `npm run dev` to develop with watch mode
+- `npm run build` will build the chrome-extension package and then zip it up
+- `src/content` runs on the extension side
+- `src/inject` gets injected on the web page and allows communication with the websites window object
 
 ## Notes
-1. webpack is setup to NOT minify files.
-2. web_accessible_resources on the manifest is needed to inject scripts
-3. node 17
+- webpack is setup to NOT minify files.
+- web_accessible_resources on the manifest is needed to inject scripts
+- node 17
