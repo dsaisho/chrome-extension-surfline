@@ -24,8 +24,7 @@ const buttonClicked = () => {
     document.dispatchEvent(new CustomEvent('setupPlayer'));
 }
 
-const init = ()=>{
-    console.log("INIT new build 1")
+const init = (_loadfs = false)=>{
     let button = document.createElement('button');
     button.textContent = 'Go Fullscreen';
     button.style.position = 'absolute';
@@ -34,18 +33,29 @@ const init = ()=>{
     button.style.right = '10px';
     button.addEventListener('click', buttonClicked);
     document.body.appendChild(button);
+
     let script = document.createElement('script');
     script.src = chrome.runtime.getURL('inject.js');
     script.onload = function () {
         document.dispatchEvent(new CustomEvent('initInjected'));
-        if(loadfs)document.dispatchEvent(new CustomEvent('setupPlayer'));
+        if(_loadfs)document.dispatchEvent(new CustomEvent('setupPlayer'));
     };
     document.head.appendChild(script);
-    
+
 }
-init()
-
-
+console.log('added content')
+chrome.runtime.onMessage.addListener(
+    function(request, sender, sendResponse) {
+        if(request.message === "actionEvent") {
+            console.log("actionEvent", request.isOn)
+            if(request.isOn) {
+                document.dispatchEvent(new CustomEvent('setupPlayer'));
+            }else document.location.reload()
+        }else if(request.message === "init") {
+            init(request.isOn)
+        }
+    }
+);
 
 
 

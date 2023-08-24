@@ -73,18 +73,15 @@ const setupStyles = () => {
 }
 
 const reload = () => {
-    document.location.search = document.location.search + '&fs=true'
+    //document.location.search = document.location.search + '&fs=true'
+    document.location.reload()
 }
 
 const setupPlayer = async (e) => {
     addListeners()
     setupStyles()
-    document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape' || event.keyCode === 27) {
-            document.location.reload()
-        }
-    });
 }
+
 const initInjected = async () => {
 
 }
