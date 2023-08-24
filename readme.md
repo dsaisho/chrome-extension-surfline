@@ -20,5 +20,5 @@ The primary goal of this extension is to enable premium surfline users to watch 
 
 ## Notes
 - webpack is setup to NOT minify files.
-- web_accessible_resources on the manifest is needed to inject scripts
+- `web_accessible_resources` on the manifest is needed to inject scripts
 - node 17
