@@ -11,3 +11,14 @@ The primary goal of this extension is to enable users to watch videos in fullscr
 ## How to Use
 1. Activate your browser's fullscreen mode (usually by pressing F11).
 2. Click on the 'fullscreen' button located at the bottom right of the web page.
+
+## Development
+1. npm run dev to develop with watch mode
+2. npm run build will build the chrome-extension package and then zip it up
+3. src/content runs on the extension side
+4. src/inject gets injected on the web page and allows communication with the websites window object
+
+## Notes
+1. webpack is setup to NOT minify files.
+2. web_accessible_resources on the manifest is needed to inject scripts
+3. node 17
