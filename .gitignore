@@ -3,3 +3,5 @@ chrome-extenstion/*
 surfline-extension/*
 package-lock.json
 *.zip
+assets
+images

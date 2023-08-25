@@ -11,8 +11,9 @@ const onTimeoutMessage = async () => {
     console.log("%conTimeoutMessage", "color: #fff; background: #f00; font-size: 24px; padding: 10px; border-radius: 5px;")
     const reloadBtn = await waitForElement('.quiver-cam-timeout__message button')
     reloadBtn.click()
-    await waitForElement('video-js')
-    setupStyles()
+    setTimeout(() => {  
+        setupStyles()
+    },200)
 }
 
 const setupStyles = () => {
@@ -69,11 +70,10 @@ const setupStyles = () => {
         // 50% of page height / (elementHeight / 2)
         const camTop = parseInt((height / 2) - (camW.offsetHeight / 2))
         cam.style.top = `${camTop}px`
-    }, 1000)
+    }, 500)
 }
 
 const reload = () => {
-    //document.location.search = document.location.search + '&fs=true'
     document.location.reload()
 }
 
@@ -82,8 +82,4 @@ const setupPlayer = async (e) => {
     setupStyles()
 }
 
-const initInjected = async () => {
-
-}
-document.addEventListener('initInjected', initInjected);
 document.addEventListener('setupPlayer', setupPlayer);
