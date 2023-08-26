@@ -1,3 +1,4 @@
+![alt text](https://github.com/dsaisho/chrome-extension-surfline/blob/master/assets/promo.png?raw=true)
 # Chrome Extension for Surfline.com
 - because they think its cool to limit your content even when your a paying premium member...
 ## Purpose
@@ -13,7 +14,7 @@ The primary goal of this extension is to enable premium surfline users to watch 
 2. Click on the 'fullscreen' action icon ![alt text](https://github.com/dsaisho/chrome-extension-surfline/blob/master/images/off.png?raw=true)
 to turn it on ![alt text](https://github.com/dsaisho/chrome-extension-surfline/blob/master/images/on.png?raw=true)
 3. Click the icon again to turn it off and go back to the original view of the site.
-- hint* pin the extension for better ease of use.
+- Hint* Pin the extension for better ease of use.
 
 ## Development
 - `npm run dev` to develop with watch mode
