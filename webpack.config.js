@@ -19,7 +19,7 @@ module.exports = {
             to: path.resolve(__dirname, "surfline-extension/manifest.json"),
           },
           {
-            from: path.resolve(__dirname, "images"),
+            from: path.resolve(__dirname, "images/package-w-extension"),
             to: path.resolve(__dirname, "surfline-extension/images/"),
           },
         ],
