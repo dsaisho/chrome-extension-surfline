@@ -8,7 +8,7 @@
 The primary goal of this extension is to enable premium surfline users to watch videos in fullscreen continuously on Surfline.com without the interruption of the 'are you watching' popup every ~15 minutes.
 
 ## Why
-- because they think its cool to limit your content even when your a paying premium member...
+Because they think its cool to limit your content even when your a paying premium member...
 
 ## Features
 - Introduces a 'fullscreen' action icon on Surfline.com web pages.
