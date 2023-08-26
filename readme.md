@@ -1,4 +1,7 @@
-![alt text](https://github.com/dsaisho/chrome-extension-surfline/blob/master/images/promo.jpg?raw=true)
+
+<p align="center">
+  <img src="https://github.com/dsaisho/chrome-extension-surfline/blob/master/images/promo.jpg?raw=true" alt="alt text">
+</p>
 # Chrome Extension for Surfline.com
 - because they think its cool to limit your content even when your a paying premium member...
 ## Purpose
