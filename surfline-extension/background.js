@@ -1,3 +1,5 @@
+/******/ (() => { // webpackBootstrap
+var __webpack_exports__ = {};
 
 const sendMessage = (message) => {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
@@ -40,3 +42,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 
 
+
+/******/ })()
+;

@@ -1,3 +1,5 @@
+/******/ (() => { // webpackBootstrap
+var __webpack_exports__ = {};
 
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
@@ -26,3 +28,5 @@ const init = async () => {
 }
 
 init()
+/******/ })()
+;
