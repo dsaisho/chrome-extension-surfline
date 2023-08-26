@@ -10,7 +10,8 @@ The primary goal of this extension is to enable premium surfline users to watch 
 
 ## How to Use
 1. Activate your browser's fullscreen mode (usually by pressing F11).
-2. Click on the 'fullscreen' action icon
+2. Click on the 'fullscreen' action icon ![alt text](https://github.com/dsaisho/chrome-extension-surfline/blob/master/images/icon.png?raw=true)
+
 - hint- pin the extension for better ease of use.
 
 ## Development
