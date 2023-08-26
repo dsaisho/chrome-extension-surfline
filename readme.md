@@ -1,4 +1,4 @@
-![alt text](https://github.com/dsaisho/chrome-extension-surfline/blob/master/images/promo.png?raw=true)
+![alt text](https://github.com/dsaisho/chrome-extension-surfline/blob/master/images/promo.jpg?raw=true)
 # Chrome Extension for Surfline.com
 - because they think its cool to limit your content even when your a paying premium member...
 ## Purpose
@@ -16,6 +16,26 @@ to turn it on ![alt text](https://github.com/dsaisho/chrome-extension-surfline/b
 3. Click the icon again to turn it off and go back to the original view of the site.
 - Hint* Pin the extension for better ease of use.
 
+### Installation
+1. **Open Chrome Extensions Page**:
+   - download the `surfline-extensions` directory from this repo. (or build it)
+
+2. **Open Chrome Extensions Page**:
+   - Open the Google Chrome browser.
+   - Click on the three vertical dots (⋮) on the top right corner to open the browser menu.
+   - Navigate to `More tools` > `Extensions` or simply type `chrome://extensions/` in the address bar and hit Enter.
+
+3. **Enable Developer Mode**:
+   - On the Extensions page, you'll see a toggle switch at the top right corner labeled "Developer mode." Switch it on.
+
+4. **Load Unpacked Extension**:
+   - Click on the `Load unpacked` button that appears.
+   - Navigate to where you downloaded `surfline-extensions`, ensure `manifest.json` is within that directory.
+   - Select the directory (or folder) and click on the `Select Folder` button.
+
+5. **Extension Loaded**:
+   - You should now see your extension listed on the Extensions page. If there are any errors in your extension, they will be displayed here.
+   - Pin the extension for better ease of use.
 ## Development
 - `npm run dev` to develop with watch mode
 - `npm run build` will build the chrome-extension package and then zip it up
