@@ -22,7 +22,7 @@ to turn it on ![alt text](https://github.com/dsaisho/chrome-extension-surfline/b
 3. Click the icon again to turn it off and go back to the original view of the site.
 - Hint* Pin the extension for better ease of use.
 
-### Installation
+## Installation
 1. **Open Chrome Extensions Page**:
    - download the `surfline-extensions` directory from this repo. (or build it)
 
